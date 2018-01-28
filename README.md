@@ -20,4 +20,7 @@ $ mix escript.build
 Generated escript escript_export with MIX_ENV=dev
 ./escript_export
 false
+false
+["a", " =", " ", "1"]
+["a", " =", " ", "1"]
 ```
