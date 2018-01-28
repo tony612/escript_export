@@ -1,18 +1,5 @@
 defmodule EscriptExport do
-  @moduledoc """
-  Documentation for EscriptExport.
-  """
-
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> EscriptExport.hello
-      :world
-
-  """
-  def hello do
-    :world
+  def main(_) do
+    IO.inspect(function_exported?(Code, :format_string!, 2))
   end
 end
